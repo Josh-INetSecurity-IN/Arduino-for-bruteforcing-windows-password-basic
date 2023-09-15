@@ -25,15 +25,12 @@ void setup()
   Keyboard.print("password2");
   delay(500);
   typeKey(KEY_RETURN);
-   delay(200);
-  typeKey(KEY_RETURN);
-
-
-  delay(750);
+   delay(500);
+  
   Keyboard.print("password2");
   delay(500);
   typeKey(KEY_RETURN);
-  delay(750);
+  delay(500);
 
   Keyboard.end();
 }
